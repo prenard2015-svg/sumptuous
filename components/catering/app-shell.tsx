@@ -1,6 +1,5 @@
 "use client"
 
-import { ChefHat } from "lucide-react"
 import { StoreProvider, useStore } from "@/lib/store"
 import { OccasionPicker } from "@/components/catering/occasion-picker"
 import { MenuShowcase } from "@/components/catering/menu-showcase"
@@ -19,13 +18,15 @@ function Screens() {
             <button
               type="button"
               onClick={() => setScreen(quote.occasionId ? "showcase" : "occasion")}
-              className="inline-flex items-center gap-2 text-cream transition-opacity hover:opacity-80"
+              className="inline-flex items-center transition-opacity hover:opacity-80"
+              aria-label="Sumptuous Catering & Events — home"
             >
-              <span className="grid size-8 place-items-center rounded-full bg-gold/15 text-gold">
-                <ChefHat className="size-4" aria-hidden />
-              </span>
-              <span className="font-serif text-lg font-semibold tracking-wide">
-                Atelier
+              <span className="rounded-lg bg-white px-3 py-1.5">
+                <img
+                  src="/branding/sumptuous-logo.png"
+                  alt="Sumptuous Catering & Events LTD"
+                  className="h-9 w-auto"
+                />
               </span>
             </button>
             <StepIndicator screen={screen} />
@@ -84,8 +85,8 @@ function Footer() {
     <footer className="border-t border-white/8 px-5 py-6">
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
         <p className="text-xs text-cream/40">
-          Atelier — Private Catering & Chef Services. A concept prototype;
-          prices and photos are representative.
+          Sumptuous Catering & Events LTD (RC No.: 1773943) — feel fine dining.
+          A concept prototype; prices and photos are representative.
         </p>
         <a
           href="https://ritual.work/?ref=build-badge"

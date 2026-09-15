@@ -16,7 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Atelier — Private Catering & Chef Services',
+  title: 'Sumptuous Catering & Events LTD — feel fine dining',
   description:
     'A luxurious catering showcase. Choose your occasion, compare chef packages, adjust guest count and preferences, and prepare a quote request.',
   generator: 'v0.app',

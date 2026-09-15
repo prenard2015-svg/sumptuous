@@ -36,7 +36,7 @@ export function OccasionPicker() {
   return (
     <main className="mx-auto flex min-h-svh w-full max-w-5xl flex-col justify-center px-5 py-14 sm:py-20">
       <header className="mb-10 text-center">
-        <SectionLabel>Atelier · Private Catering</SectionLabel>
+        <SectionLabel>Sumptuous Catering & Events · feel fine dining</SectionLabel>
         <h1 className="mt-4 text-balance text-4xl font-semibold leading-tight text-cream sm:text-5xl">
           What are we cooking toward?
         </h1>
