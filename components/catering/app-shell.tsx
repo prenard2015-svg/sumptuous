@@ -87,7 +87,18 @@ function Footer() {
           Atelier — Private Catering & Chef Services. A concept prototype;
           prices and photos are representative.
         </p>
-        <div id="ritual-badge-slot" />
+        <a
+          href="https://ritual.work/?ref=build-badge"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="https://api.ritualapp.cloud/b/1bcI6MFhpaS1RNo1--fa7A.svg"
+            alt="Built from a Ritual spec"
+            height={28}
+            style={{ height: 28 }}
+          />
+        </a>
       </div>
     </footer>
   )
